@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "dream_sus_music_disc",
+    "name": "Music Disc",
+    "description": "Dream sus music",
+    "creativeTab": {
+      "value": "CUSTOM:SusCreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:dreamsus"
+    },
+    "specialInfo": [
+      "Keep out of earshot of Kieran"
+    ],
+    "hasGlow": false
+  }
+}

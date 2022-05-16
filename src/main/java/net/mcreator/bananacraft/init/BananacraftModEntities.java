@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.bananacraft.entity.RickEntity;
+import net.mcreator.bananacraft.entity.DreamBossEntity;
 import net.mcreator.bananacraft.entity.CrewmateEntity;
 import net.mcreator.bananacraft.BananacraftMod;
 
@@ -33,6 +34,9 @@ public class BananacraftModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(CrewmateEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<DreamBossEntity>> DREAM_BOSS = register("dream_boss",
+			EntityType.Builder.<DreamBossEntity>of(DreamBossEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DreamBossEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -43,6 +47,7 @@ public class BananacraftModEntities {
 		event.enqueueWork(() -> {
 			RickEntity.init();
 			CrewmateEntity.init();
+			DreamBossEntity.init();
 		});
 	}
 
@@ -50,5 +55,6 @@ public class BananacraftModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RICK.get(), RickEntity.createAttributes().build());
 		event.put(CREWMATE.get(), CrewmateEntity.createAttributes().build());
+		event.put(DREAM_BOSS.get(), DreamBossEntity.createAttributes().build());
 	}
 }

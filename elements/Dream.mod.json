@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "dreamsus",
+    "name": "Music Disc",
+    "description": "Dream Speedrun music - Bobby Cole",
+    "creativeTab": {
+      "value": "CUSTOM:SusCreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:dream"
+    },
+    "specialInfo": [
+      "Press play and speedrun"
+    ],
+    "hasGlow": false
+  }
+}

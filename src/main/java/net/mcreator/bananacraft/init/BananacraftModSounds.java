@@ -23,6 +23,7 @@ public class BananacraftModSounds {
 		REGISTRY.put(new ResourceLocation("bananacraft", "crewmatedies"), new SoundEvent(new ResourceLocation("bananacraft", "crewmatedies")));
 		REGISTRY.put(new ResourceLocation("bananacraft", "amongusdrip"), new SoundEvent(new ResourceLocation("bananacraft", "amongusdrip")));
 		REGISTRY.put(new ResourceLocation("bananacraft", "dream"), new SoundEvent(new ResourceLocation("bananacraft", "dream")));
+		REGISTRY.put(new ResourceLocation("bananacraft", "dreamsus"), new SoundEvent(new ResourceLocation("bananacraft", "dreamsus")));
 	}
 
 	@SubscribeEvent

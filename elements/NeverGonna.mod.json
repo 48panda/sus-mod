@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "nevergonna",
+    "name": "Music Disc",
+    "description": "Never Gonna Give You Up - Rick Astley",
+    "creativeTab": {
+      "value": "CUSTOM:SusCreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:nevergonna"
+    },
+    "specialInfo": [
+      "Never Gonna Let You Down"
+    ],
+    "hasGlow": false
+  }
+}

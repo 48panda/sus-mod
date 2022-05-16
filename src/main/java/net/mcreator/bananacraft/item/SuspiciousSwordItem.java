@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.bananacraft.init.BananacraftModTabs;
 import net.mcreator.bananacraft.init.BananacraftModItems;
 
 public class SuspiciousSwordItem extends SwordItem {
@@ -36,6 +36,6 @@ public class SuspiciousSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BananacraftModItems.SUSPICIOUS_INGOT.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB));
 	}
 }

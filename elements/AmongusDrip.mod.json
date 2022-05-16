@@ -1,0 +1,19 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "amongus",
+    "name": "Music Disc",
+    "description": "Among Us Drip",
+    "creativeTab": {
+      "value": "CUSTOM:SusCreativeTab"
+    },
+    "music": {
+      "value": "CUSTOM:amongusdrip"
+    },
+    "specialInfo": [
+      "red sus"
+    ],
+    "hasGlow": false
+  }
+}

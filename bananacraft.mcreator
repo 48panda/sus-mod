@@ -3,7 +3,7 @@
     {
       "name": "Rick",
       "type": "livingentity",
-      "sortid": 1,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rick"
@@ -11,7 +11,7 @@
     {
       "name": "Sus",
       "type": "fluid",
-      "sortid": 3,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sus",
@@ -22,7 +22,7 @@
     {
       "name": "CakeOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cake_on_block_right_clicked",
@@ -50,7 +50,7 @@
     {
       "name": "Cake",
       "type": "block",
-      "sortid": 13,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cake"
@@ -58,7 +58,7 @@
     {
       "name": "SussOnKeyPressed",
       "type": "procedure",
-      "sortid": 14,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suss_on_key_pressed",
@@ -78,7 +78,7 @@
     {
       "name": "Suss",
       "type": "keybind",
-      "sortid": 15,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suss"
@@ -86,7 +86,7 @@
     {
       "name": "CakeCraft",
       "type": "recipe",
-      "sortid": 16,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cake_craft"
@@ -94,7 +94,7 @@
     {
       "name": "SuspiciousIngot",
       "type": "item",
-      "sortid": 4,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_ingot"
@@ -102,7 +102,7 @@
     {
       "name": "SuspiciousBlock",
       "type": "block",
-      "sortid": 5,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_block"
@@ -110,7 +110,7 @@
     {
       "name": "SuspiciousOreBlockRecipe",
       "type": "recipe",
-      "sortid": 17,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_ore_block_recipe"
@@ -118,7 +118,7 @@
     {
       "name": "SuspiciousBlockOreRecipe",
       "type": "recipe",
-      "sortid": 18,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_block_ore_recipe"
@@ -126,7 +126,7 @@
     {
       "name": "SuspiciousPickaxe",
       "type": "tool",
-      "sortid": 6,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_pickaxe"
@@ -134,7 +134,7 @@
     {
       "name": "SuspiciousAxe",
       "type": "tool",
-      "sortid": 7,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_axe"
@@ -142,7 +142,7 @@
     {
       "name": "SuspiciousSword",
       "type": "tool",
-      "sortid": 10,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_sword"
@@ -150,7 +150,7 @@
     {
       "name": "SuspiciousShovel",
       "type": "tool",
-      "sortid": 8,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_shovel"
@@ -158,7 +158,7 @@
     {
       "name": "SuspiciousHoe",
       "type": "tool",
-      "sortid": 9,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_hoe"
@@ -166,7 +166,7 @@
     {
       "name": "SuspiciousPickaxeRecipe",
       "type": "recipe",
-      "sortid": 19,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_pickaxe_recipe"
@@ -174,7 +174,7 @@
     {
       "name": "SuspiciousAxeRecipe",
       "type": "recipe",
-      "sortid": 20,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_axe_recipe"
@@ -182,7 +182,7 @@
     {
       "name": "SuspiciousSwordRecipe",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_sword_recipe"
@@ -190,7 +190,7 @@
     {
       "name": "SuspiciousShovelRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_shovel_recipe"
@@ -198,7 +198,7 @@
     {
       "name": "SuspiciousHoeRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_hoe_recipe"
@@ -206,15 +206,21 @@
     {
       "name": "SuspiciousArmor",
       "type": "armor",
-      "sortid": 11,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_armor"
+      "registry_name": "suspicious_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     },
     {
       "name": "SuspiciousArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_helmet_recipe"
@@ -222,7 +228,7 @@
     {
       "name": "SuspiciousArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_body_recipe"
@@ -230,7 +236,7 @@
     {
       "name": "SuspiciousArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_leggings_recipe"
@@ -238,7 +244,7 @@
     {
       "name": "SuspiciousArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_boots_recipe"
@@ -246,7 +252,7 @@
     {
       "name": "SuspiciousBlockCrafting",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_block_crafting"
@@ -254,7 +260,7 @@
     {
       "name": "Crewmate",
       "type": "livingentity",
-      "sortid": 2,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crewmate"
@@ -262,7 +268,7 @@
     {
       "name": "RickEntityDies",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rick_entity_dies",
@@ -290,7 +296,7 @@
     {
       "name": "CrewItem",
       "type": "item",
-      "sortid": 30,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crew_item"
@@ -298,10 +304,114 @@
     {
       "name": "SusCreativeTab",
       "type": "tab",
-      "sortid": 30,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sus_creative_tab"
+    },
+    {
+      "name": "AmongusDrip",
+      "type": "musicdisc",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amongus_drip"
+    },
+    {
+      "name": "Dream",
+      "type": "musicdisc",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream"
+    },
+    {
+      "name": "DreamSus",
+      "type": "musicdisc",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_sus"
+    },
+    {
+      "name": "SusDream",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_dream"
+    },
+    {
+      "name": "CrewmateEntityDies",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NeverGonna",
+      "type": "musicdisc",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "never_gonna"
+    },
+    {
+      "name": "DreamBoss",
+      "type": "livingentity",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_boss"
+    },
+    {
+      "name": "DreamBossEntityDies",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dream_boss_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -352,14 +462,26 @@
       ],
       "category": "master",
       "subtitle": "dream"
+    },
+    {
+      "name": "dreamsus",
+      "files": [
+        "susdream"
+      ],
+      "category": "music",
+      "subtitle": "dream sus"
     }
   ],
   "language_map": {
     "en_us": {
       "subtitles.nevergonna": "RIck does Rick things",
+      "item.bananacraft.never_gonna.desc": "Never Gonna Give You Up - Rick Astley",
+      "item.bananacraft.dream": "Music Disc",
+      "item.bananacraft.dream.desc": "Dream Speedrun music - Bobby Cole",
       "entity.bananacraft.crewmate": "Crewmate",
       "item.bananacraft.crewmate_spawn_egg": "Crewmate Spawn Egg",
       "block.bananacraft.suspicious_block": "Block of Suspicious",
+      "item.bananacraft.never_gonna": "Music Disc",
       "block.bananacraft.sus": "sus Milk",
       "itemGroup.tabsus_creative_tab": "Sus",
       "entity.bananacraft.rick": "Rick",
@@ -371,17 +493,24 @@
       "item.bananacraft.suspicious_armor_helmet": "Suspicious Helmet",
       "item.bananacraft.suspicious_shovel": "Suspicious Shovel",
       "item.bananacraft.suspicious_armor_chestplate": "Suspicious Chestplate",
+      "item.bananacraft.dream_boss_spawn_egg": "Dream Boss Spawn Egg",
       "fluid.bananacraft.sus": "sus Milk",
       "item.bananacraft.suspicious_hoe": "Suspicious Hoe",
+      "item.bananacraft.amongus_drip": "Music Disc",
       "item.bananacraft.suspicious_armor_leggings": "Suspicious Leggings",
+      "entity.bananacraft.dream_boss": "Dream Boss",
       "block.bananacraft.cake": "sus Cake",
+      "item.bananacraft.dream_sus.desc": "Dream sus music",
       "item.bananacraft.suspicious_axe": "Suspicious Axe",
       "subtitles.dream": "dream",
       "item.bananacraft.suspicious_ingot": "Suspicious",
+      "item.bananacraft.dream_sus": "Music Disc",
+      "item.bananacraft.amongus_drip.desc": "Among Us Drip",
       "subtitles.amongusdrip": "Among us drip",
       "key.bananacraft.suss": "sus",
       "item.bananacraft.suspicious_pickaxe": "Suspicious Pickaxe",
       "item.bananacraft.rick_spawn_egg": "Rick Spawn Egg",
+      "subtitles.dreamsus": "dream sus",
       "item.bananacraft.suspicious_sword": "Suspicious Sword"
     }
   },

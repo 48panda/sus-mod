@@ -2,7 +2,7 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "suspicious_ore_block",
+    "texture": "block",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -39,7 +39,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:SusCreativeTab"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

@@ -8,7 +8,7 @@
     "name": "Suspicious Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SusCreativeTab"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 10,

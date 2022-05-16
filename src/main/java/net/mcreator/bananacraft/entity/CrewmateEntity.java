@@ -32,13 +32,14 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.bananacraft.procedures.CrewmateEntityDiesProcedure;
 import net.mcreator.bananacraft.init.BananacraftModEntities;
 
 @Mod.EventBusSubscriber
 public class CrewmateEntity extends PathfinderMob {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(BananacraftModEntities.CREWMATE.get(), 20, 15, 15));
+		event.getSpawns().getSpawner(MobCategory.AMBIENT).add(new MobSpawnSettings.SpawnerData(BananacraftModEntities.CREWMATE.get(), 200, 10, 15));
 	}
 
 	public CrewmateEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -85,6 +86,12 @@ public class CrewmateEntity extends PathfinderMob {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("bananacraft:crewmatedies"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		CrewmateEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 	}
 
 	public static void init() {

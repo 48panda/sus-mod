@@ -8,7 +8,7 @@
     "name": "Suspicious",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SusCreativeTab"
     },
     "stackSize": 64,
     "enchantability": 0,

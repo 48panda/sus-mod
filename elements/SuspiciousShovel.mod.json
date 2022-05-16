@@ -8,7 +8,7 @@
     "name": "Suspicious Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SusCreativeTab"
     },
     "toolType": "Spade",
     "harvestLevel": 10,

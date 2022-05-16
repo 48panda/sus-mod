@@ -8,7 +8,7 @@
     "name": "Suspicious Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:SusCreativeTab"
     },
     "toolType": "Hoe",
     "harvestLevel": 10,

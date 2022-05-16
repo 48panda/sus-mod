@@ -6,8 +6,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.mcreator.bananacraft.init.BananacraftModTabs;
 import net.mcreator.bananacraft.init.BananacraftModItems;
 
 public class SuspiciousPickaxeItem extends PickaxeItem {
@@ -36,6 +36,6 @@ public class SuspiciousPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(BananacraftModItems.SUSPICIOUS_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB));
 	}
 }

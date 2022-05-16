@@ -76,5 +76,15 @@
         "stream": false
       }
     ]
+  },
+  "dreamsus": {
+    "category": "music",
+    "subtitle": "subtitles.dreamsus",
+    "sounds": [
+      {
+        "name": "bananacraft:susdream",
+        "stream": true
+      }
+    ]
   }
 }
