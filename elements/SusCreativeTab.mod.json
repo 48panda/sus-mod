@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Sus",
+    "icon": {
+      "value": "CUSTOM:CrewItem"
+    },
+    "showSearch": false
+  }
+}

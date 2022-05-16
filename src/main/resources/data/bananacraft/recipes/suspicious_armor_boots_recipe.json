@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "bananacraft:suspicious_ingot"
+    },
+    "2": {
+      "item": "bananacraft:suspicious_ingot"
+    },
+    "3": {
+      "item": "bananacraft:suspicious_ingot"
+    },
+    "5": {
+      "item": "bananacraft:suspicious_ingot"
+    }
+  },
+  "result": {
+    "item": "bananacraft:suspicious_armor_boots",
+    "count": 1
+  }
+}

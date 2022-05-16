@@ -1,0 +1,10 @@
+{
+  "parent": "bananacraft:custom/cake",
+  "textures": {
+    "all": "bananacraft:blocks/cake_bottom",
+    "particle": "bananacraft:blocks/cake_bottom",
+    "side": "bananacraft:blocks/cake_side",
+    "top": "bananacraft:blocks/cake_top",
+    "bottom": "bananacraft:blocks/cake_bottom"
+  }
+}

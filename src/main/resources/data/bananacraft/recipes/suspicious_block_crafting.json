@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bananacraft:sus_bucket"
+    },
+    {
+      "item": "bananacraft:sus_bucket"
+    },
+    {
+      "item": "bananacraft:sus_bucket"
+    },
+    {
+      "item": "bananacraft:sus_bucket"
+    }
+  ],
+  "result": {
+    "item": "bananacraft:suspicious_ingot",
+    "count": 1
+  }
+}

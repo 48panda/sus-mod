@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "C",
+    "keyBindingName": "sus",
+    "keyBindingCategoryKey": "movement",
+    "onKeyPressed": {
+      "name": "SussOnKeyPressed"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bananacraft:suspicious_block"
+    }
+  ],
+  "result": {
+    "item": "bananacraft:suspicious_ingot",
+    "count": 9
+  }
+}

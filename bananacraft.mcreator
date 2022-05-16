@@ -1,0 +1,410 @@
+{
+  "mod_elements": [
+    {
+      "name": "Rick",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick"
+    },
+    {
+      "name": "Sus",
+      "type": "fluid",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "CakeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cake",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake"
+    },
+    {
+      "name": "SussOnKeyPressed",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suss_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Suss",
+      "type": "keybind",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suss"
+    },
+    {
+      "name": "CakeCraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cake_craft"
+    },
+    {
+      "name": "SuspiciousIngot",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_ingot"
+    },
+    {
+      "name": "SuspiciousBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_block"
+    },
+    {
+      "name": "SuspiciousOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_ore_block_recipe"
+    },
+    {
+      "name": "SuspiciousBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_block_ore_recipe"
+    },
+    {
+      "name": "SuspiciousPickaxe",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_pickaxe"
+    },
+    {
+      "name": "SuspiciousAxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_axe"
+    },
+    {
+      "name": "SuspiciousSword",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_sword"
+    },
+    {
+      "name": "SuspiciousShovel",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_shovel"
+    },
+    {
+      "name": "SuspiciousHoe",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_hoe"
+    },
+    {
+      "name": "SuspiciousPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_pickaxe_recipe"
+    },
+    {
+      "name": "SuspiciousAxeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_axe_recipe"
+    },
+    {
+      "name": "SuspiciousSwordRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_sword_recipe"
+    },
+    {
+      "name": "SuspiciousShovelRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_shovel_recipe"
+    },
+    {
+      "name": "SuspiciousHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_hoe_recipe"
+    },
+    {
+      "name": "SuspiciousArmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_armor"
+    },
+    {
+      "name": "SuspiciousArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_armor_helmet_recipe"
+    },
+    {
+      "name": "SuspiciousArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_armor_body_recipe"
+    },
+    {
+      "name": "SuspiciousArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_armor_leggings_recipe"
+    },
+    {
+      "name": "SuspiciousArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_armor_boots_recipe"
+    },
+    {
+      "name": "SuspiciousBlockCrafting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_block_crafting"
+    },
+    {
+      "name": "Crewmate",
+      "type": "livingentity",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate"
+    },
+    {
+      "name": "RickEntityDies",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rick_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrewItem",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crew_item"
+    },
+    {
+      "name": "SusCreativeTab",
+      "type": "tab",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_creative_tab"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nevergonna",
+      "files": [
+        "never_gonna_give_you_up"
+      ],
+      "category": "master",
+      "subtitle": "RIck does Rick things"
+    },
+    {
+      "name": "crewstep",
+      "files": [
+        "footstepmetal01",
+        "footstepmetal02",
+        "footstepmetal03",
+        "footstepmetal04",
+        "footstepmetal05",
+        "footstepmetal06",
+        "footstepmetal07",
+        "footstepmetal08"
+      ],
+      "category": "neutral",
+      "subtitle": "Crewmate steps"
+    },
+    {
+      "name": "crewmatedies",
+      "files": [
+        "impostor_killmusic"
+      ],
+      "category": "neutral",
+      "subtitle": "Crewmate Dies"
+    },
+    {
+      "name": "amongusdrip",
+      "files": [
+        "amogus"
+      ],
+      "category": "music",
+      "subtitle": "Among us drip"
+    },
+    {
+      "name": "dream",
+      "files": [
+        "dream"
+      ],
+      "category": "master",
+      "subtitle": "dream"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.nevergonna": "RIck does Rick things",
+      "entity.bananacraft.crewmate": "Crewmate",
+      "item.bananacraft.crewmate_spawn_egg": "Crewmate Spawn Egg",
+      "block.bananacraft.suspicious_block": "Block of Suspicious",
+      "block.bananacraft.sus": "sus Milk",
+      "itemGroup.tabsus_creative_tab": "Sus",
+      "entity.bananacraft.rick": "Rick",
+      "subtitles.crewstep": "Crewmate steps",
+      "subtitles.crewmatedies": "Crewmate Dies",
+      "item.bananacraft.crew_item": "Crew Item",
+      "item.bananacraft.sus_bucket": "sus Milk Bucket",
+      "item.bananacraft.suspicious_armor_boots": "Suspicious Boots",
+      "item.bananacraft.suspicious_armor_helmet": "Suspicious Helmet",
+      "item.bananacraft.suspicious_shovel": "Suspicious Shovel",
+      "item.bananacraft.suspicious_armor_chestplate": "Suspicious Chestplate",
+      "fluid.bananacraft.sus": "sus Milk",
+      "item.bananacraft.suspicious_hoe": "Suspicious Hoe",
+      "item.bananacraft.suspicious_armor_leggings": "Suspicious Leggings",
+      "block.bananacraft.cake": "sus Cake",
+      "item.bananacraft.suspicious_axe": "Suspicious Axe",
+      "subtitles.dream": "dream",
+      "item.bananacraft.suspicious_ingot": "Suspicious",
+      "subtitles.amongusdrip": "Among us drip",
+      "key.bananacraft.suss": "sus",
+      "item.bananacraft.suspicious_pickaxe": "Suspicious Pickaxe",
+      "item.bananacraft.rick_spawn_egg": "Rick Spawn Egg",
+      "item.bananacraft.suspicious_sword": "Suspicious Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "bananacraft",
+    "modName": "bananacraft",
+    "version": "1.0.0",
+    "author": "George, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.bananacraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}

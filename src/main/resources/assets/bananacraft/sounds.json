@@ -1,0 +1,80 @@
+{
+  "nevergonna": {
+    "category": "master",
+    "subtitle": "subtitles.nevergonna",
+    "sounds": [
+      {
+        "name": "bananacraft:never_gonna_give_you_up",
+        "stream": false
+      }
+    ]
+  },
+  "crewstep": {
+    "category": "neutral",
+    "subtitle": "subtitles.crewstep",
+    "sounds": [
+      {
+        "name": "bananacraft:footstepmetal01",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal02",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal03",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal04",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal05",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal06",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal07",
+        "stream": false
+      },
+      {
+        "name": "bananacraft:footstepmetal08",
+        "stream": false
+      }
+    ]
+  },
+  "crewmatedies": {
+    "category": "neutral",
+    "subtitle": "subtitles.crewmatedies",
+    "sounds": [
+      {
+        "name": "bananacraft:impostor_killmusic",
+        "stream": false
+      }
+    ]
+  },
+  "amongusdrip": {
+    "category": "music",
+    "subtitle": "subtitles.amongusdrip",
+    "sounds": [
+      {
+        "name": "bananacraft:amogus",
+        "stream": true
+      }
+    ]
+  },
+  "dream": {
+    "category": "master",
+    "subtitle": "subtitles.dream",
+    "sounds": [
+      {
+        "name": "bananacraft:dream",
+        "stream": false
+      }
+    ]
+  }
+}
