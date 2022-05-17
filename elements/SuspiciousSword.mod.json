@@ -3,7 +3,7 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "suspicious_sword",
+    "texture": "sus_sword",
     "customModelName": "Normal",
     "name": "Suspicious Sword",
     "specialInfo": [],

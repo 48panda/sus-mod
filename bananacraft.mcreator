@@ -3,7 +3,7 @@
     {
       "name": "Rick",
       "type": "livingentity",
-      "sortid": 11,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rick"
@@ -22,7 +22,7 @@
     {
       "name": "CakeOnBlockRightClicked",
       "type": "procedure",
-      "sortid": 18,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cake_on_block_right_clicked",
@@ -58,7 +58,7 @@
     {
       "name": "SussOnKeyPressed",
       "type": "procedure",
-      "sortid": 19,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suss_on_key_pressed",
@@ -78,7 +78,7 @@
     {
       "name": "Suss",
       "type": "keybind",
-      "sortid": 20,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suss"
@@ -86,7 +86,7 @@
     {
       "name": "CakeCraft",
       "type": "recipe",
-      "sortid": 21,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cake_craft"
@@ -110,7 +110,7 @@
     {
       "name": "SuspiciousOreBlockRecipe",
       "type": "recipe",
-      "sortid": 22,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_ore_block_recipe"
@@ -118,7 +118,7 @@
     {
       "name": "SuspiciousBlockOreRecipe",
       "type": "recipe",
-      "sortid": 23,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_block_ore_recipe"
@@ -166,7 +166,7 @@
     {
       "name": "SuspiciousPickaxeRecipe",
       "type": "recipe",
-      "sortid": 24,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_pickaxe_recipe"
@@ -174,7 +174,7 @@
     {
       "name": "SuspiciousAxeRecipe",
       "type": "recipe",
-      "sortid": 25,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_axe_recipe"
@@ -182,7 +182,7 @@
     {
       "name": "SuspiciousSwordRecipe",
       "type": "recipe",
-      "sortid": 26,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_sword_recipe"
@@ -190,7 +190,7 @@
     {
       "name": "SuspiciousShovelRecipe",
       "type": "recipe",
-      "sortid": 27,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_shovel_recipe"
@@ -198,7 +198,7 @@
     {
       "name": "SuspiciousHoeRecipe",
       "type": "recipe",
-      "sortid": 28,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_hoe_recipe"
@@ -220,7 +220,7 @@
     {
       "name": "SuspiciousArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 29,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_helmet_recipe"
@@ -228,7 +228,7 @@
     {
       "name": "SuspiciousArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 30,
+      "sortid": 41,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_body_recipe"
@@ -236,7 +236,7 @@
     {
       "name": "SuspiciousArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 31,
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_leggings_recipe"
@@ -244,7 +244,7 @@
     {
       "name": "SuspiciousArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 32,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_boots_recipe"
@@ -252,7 +252,7 @@
     {
       "name": "SuspiciousBlockCrafting",
       "type": "recipe",
-      "sortid": 33,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_block_crafting"
@@ -260,7 +260,7 @@
     {
       "name": "Crewmate",
       "type": "livingentity",
-      "sortid": 12,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crewmate"
@@ -268,7 +268,7 @@
     {
       "name": "RickEntityDies",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 45,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rick_entity_dies",
@@ -296,7 +296,7 @@
     {
       "name": "CrewItem",
       "type": "item",
-      "sortid": 35,
+      "sortid": 46,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crew_item"
@@ -304,7 +304,7 @@
     {
       "name": "SusCreativeTab",
       "type": "tab",
-      "sortid": 36,
+      "sortid": 47,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sus_creative_tab"
@@ -312,7 +312,7 @@
     {
       "name": "AmongusDrip",
       "type": "musicdisc",
-      "sortid": 15,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "amongus_drip"
@@ -320,7 +320,7 @@
     {
       "name": "Dream",
       "type": "musicdisc",
-      "sortid": 16,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream"
@@ -328,7 +328,7 @@
     {
       "name": "DreamSus",
       "type": "musicdisc",
-      "sortid": 17,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_sus"
@@ -336,7 +336,7 @@
     {
       "name": "SusDream",
       "type": "recipe",
-      "sortid": 37,
+      "sortid": 48,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sus_dream"
@@ -344,7 +344,7 @@
     {
       "name": "CrewmateEntityDies",
       "type": "procedure",
-      "sortid": 38,
+      "sortid": 49,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crewmate_entity_dies",
@@ -372,7 +372,7 @@
     {
       "name": "NeverGonna",
       "type": "musicdisc",
-      "sortid": 14,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "never_gonna"
@@ -380,7 +380,7 @@
     {
       "name": "DreamBoss",
       "type": "livingentity",
-      "sortid": 13,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_boss"
@@ -388,7 +388,7 @@
     {
       "name": "DreamBossEntityDies",
       "type": "procedure",
-      "sortid": 39,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dream_boss_entity_dies",
@@ -412,6 +412,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "CrewmateBlue",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_blue"
+    },
+    {
+      "name": "CrewmateBrown",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_brown"
+    },
+    {
+      "name": "CrewmateCyan",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_cyan"
+    },
+    {
+      "name": "CrewmateGreen",
+      "type": "livingentity",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_green"
+    },
+    {
+      "name": "CrewmateLime",
+      "type": "livingentity",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_lime"
+    },
+    {
+      "name": "CrewmateOrange",
+      "type": "livingentity",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_orange"
+    },
+    {
+      "name": "CrewmatePink",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_pink"
+    },
+    {
+      "name": "CrewmatePurple",
+      "type": "livingentity",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_purple"
+    },
+    {
+      "name": "CrewmateRed",
+      "type": "livingentity",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_red"
+    },
+    {
+      "name": "CrewmateWhite",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_white"
+    },
+    {
+      "name": "CrewmateYellow",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crewmate_yellow"
     }
   ],
   "variable_elements": [],
@@ -474,44 +562,66 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.nevergonna": "RIck does Rick things",
+      "item.bananacraft.crewmate_white_spawn_egg": "White Crewmate Spawn Egg",
       "item.bananacraft.never_gonna.desc": "Never Gonna Give You Up - Rick Astley",
-      "item.bananacraft.dream": "Music Disc",
-      "item.bananacraft.dream.desc": "Dream Speedrun music - Bobby Cole",
-      "entity.bananacraft.crewmate": "Crewmate",
-      "item.bananacraft.crewmate_spawn_egg": "Crewmate Spawn Egg",
+      "entity.bananacraft.crewmate_pink": "Pink Crewmate",
+      "entity.bananacraft.crewmate_purple": "Purple Crewmate",
+      "entity.bananacraft.crewmate": "Black Crewmate",
       "block.bananacraft.suspicious_block": "Block of Suspicious",
       "item.bananacraft.never_gonna": "Music Disc",
-      "block.bananacraft.sus": "sus Milk",
-      "itemGroup.tabsus_creative_tab": "Sus",
-      "entity.bananacraft.rick": "Rick",
+      "item.bananacraft.crewmate_brown_spawn_egg": "Brown Crewmate Spawn Egg",
       "subtitles.crewstep": "Crewmate steps",
-      "subtitles.crewmatedies": "Crewmate Dies",
       "item.bananacraft.crew_item": "Crew Item",
       "item.bananacraft.sus_bucket": "sus Milk Bucket",
+      "item.bananacraft.crewmate_pink_spawn_egg": "Pink Crewmate Spawn Egg",
       "item.bananacraft.suspicious_armor_boots": "Suspicious Boots",
       "item.bananacraft.suspicious_armor_helmet": "Suspicious Helmet",
-      "item.bananacraft.suspicious_shovel": "Suspicious Shovel",
-      "item.bananacraft.suspicious_armor_chestplate": "Suspicious Chestplate",
+      "entity.bananacraft.crewmate_white": "White Crewmate",
+      "item.bananacraft.crewmate_blue_spawn_egg": "Blue Crewmate Spawn Egg",
       "item.bananacraft.dream_boss_spawn_egg": "Dream Boss Spawn Egg",
+      "item.bananacraft.crewmate_orange_spawn_egg": "Orange Crewmate Spawn Egg",
       "fluid.bananacraft.sus": "sus Milk",
-      "item.bananacraft.suspicious_hoe": "Suspicious Hoe",
-      "item.bananacraft.amongus_drip": "Music Disc",
+      "entity.bananacraft.crewmate_orange": "Orange Crewmate",
       "item.bananacraft.suspicious_armor_leggings": "Suspicious Leggings",
       "entity.bananacraft.dream_boss": "Dream Boss",
-      "block.bananacraft.cake": "sus Cake",
+      "entity.bananacraft.crewmate_brown": "Brown Crewmate",
+      "item.bananacraft.crewmate_lime_spawn_egg": "Lime Crewmate Spawn Egg",
       "item.bananacraft.dream_sus.desc": "Dream sus music",
       "item.bananacraft.suspicious_axe": "Suspicious Axe",
       "subtitles.dream": "dream",
+      "entity.bananacraft.crewmate_cyan": "Cyan Crewmate",
+      "subtitles.amongusdrip": "Among us drip",
+      "subtitles.dreamsus": "dream sus",
+      "item.bananacraft.suspicious_sword": "Suspicious Sword",
+      "subtitles.nevergonna": "RIck does Rick things",
+      "item.bananacraft.dream": "Music Disc",
+      "item.bananacraft.dream.desc": "Dream Speedrun music - Bobby Cole",
+      "entity.bananacraft.crewmate_yellow": "Yellow Crewmate",
+      "item.bananacraft.crewmate_spawn_egg": "Black Crewmate Spawn Egg",
+      "item.bananacraft.crewmate_purple_spawn_egg": "Purple Crewmate Spawn Egg",
+      "block.bananacraft.sus": "sus Milk",
+      "itemGroup.tabsus_creative_tab": "Sus",
+      "item.bananacraft.crewmate_green_spawn_egg": "Green Crewmate Spawn Egg",
+      "entity.bananacraft.crewmate_green": "Green Crewmate",
+      "entity.bananacraft.rick": "Rick",
+      "subtitles.crewmatedies": "Crewmate Dies",
+      "item.bananacraft.crewmate_red_spawn_egg": "Red Crewmate Spawn Egg",
+      "item.bananacraft.crewmate_yellow_spawn_egg": "Yellow Crewmate Spawn Egg",
+      "item.bananacraft.crewmate_cyan_spawn_egg": "Cyan Crewmate Spawn Egg",
+      "item.bananacraft.suspicious_shovel": "Suspicious Shovel",
+      "item.bananacraft.suspicious_armor_chestplate": "Suspicious Chestplate",
+      "item.bananacraft.suspicious_hoe": "Suspicious Hoe",
+      "item.bananacraft.amongus_drip": "Music Disc",
+      "entity.bananacraft.crewmate_lime": "Lime Crewmate",
+      "block.bananacraft.cake": "sus Cake",
       "item.bananacraft.suspicious_ingot": "Suspicious",
       "item.bananacraft.dream_sus": "Music Disc",
       "item.bananacraft.amongus_drip.desc": "Among Us Drip",
-      "subtitles.amongusdrip": "Among us drip",
       "key.bananacraft.suss": "sus",
       "item.bananacraft.suspicious_pickaxe": "Suspicious Pickaxe",
+      "entity.bananacraft.crewmate_red": "Red Crewmate",
       "item.bananacraft.rick_spawn_egg": "Rick Spawn Egg",
-      "subtitles.dreamsus": "dream sus",
-      "item.bananacraft.suspicious_sword": "Suspicious Sword"
+      "entity.bananacraft.crewmate_blue": "Blue Crewmate"
     }
   },
   "foldersRoot": {

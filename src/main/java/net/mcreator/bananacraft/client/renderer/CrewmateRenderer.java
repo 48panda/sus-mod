@@ -15,6 +15,6 @@ public class CrewmateRenderer extends MobRenderer<CrewmateEntity, Modelcustom_mo
 
 	@Override
 	public ResourceLocation getTextureLocation(CrewmateEntity entity) {
-		return new ResourceLocation("bananacraft:textures/black2.png");
+		return new ResourceLocation("bananacraft:textures/black.png");
 	}
 }

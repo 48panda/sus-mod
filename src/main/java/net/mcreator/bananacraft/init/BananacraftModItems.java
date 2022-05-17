@@ -48,17 +48,51 @@ public class BananacraftModItems {
 			() -> new SuspiciousArmorItem.Boots());
 	public static final RegistryObject<Item> SUSPICIOUS_BLOCK = block(BananacraftModBlocks.SUSPICIOUS_BLOCK, BananacraftModTabs.TAB_SUS_CREATIVE_TAB);
 	public static final RegistryObject<Item> CAKE = block(BananacraftModBlocks.CAKE, BananacraftModTabs.TAB_SUS_CREATIVE_TAB);
-	public static final RegistryObject<Item> RICK = REGISTRY.register("rick_spawn_egg", () -> new ForgeSpawnEggItem(BananacraftModEntities.RICK,
-			-13422283, -8500438, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
-	public static final RegistryObject<Item> CREWMATE = REGISTRY.register("crewmate_spawn_egg",
-			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE, -1, -1, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
-	public static final RegistryObject<Item> DREAM_BOSS = REGISTRY.register("dream_boss_spawn_egg",
-			() -> new ForgeSpawnEggItem(BananacraftModEntities.DREAM_BOSS, -1, -1,
-					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
 	public static final RegistryObject<Item> NEVER_GONNA = REGISTRY.register("never_gonna", () -> new NeverGonnaItem());
 	public static final RegistryObject<Item> AMONGUS_DRIP = REGISTRY.register("amongus_drip", () -> new AmongusDripItem());
 	public static final RegistryObject<Item> DREAM = REGISTRY.register("dream", () -> new DreamItem());
 	public static final RegistryObject<Item> DREAM_SUS = REGISTRY.register("dream_sus", () -> new DreamSusItem());
+	public static final RegistryObject<Item> RICK = REGISTRY.register("rick_spawn_egg", () -> new ForgeSpawnEggItem(BananacraftModEntities.RICK,
+			-13422283, -8500438, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> DREAM_BOSS = REGISTRY.register("dream_boss_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.DREAM_BOSS, -1, -1,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_RED = REGISTRY.register("crewmate_red_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_RED, -65536, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE = REGISTRY.register("crewmate_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE, -16777216, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_WHITE = REGISTRY.register("crewmate_white_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_WHITE, -1, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_BLUE = REGISTRY.register("crewmate_blue_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_BLUE, -16776961, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_CYAN = REGISTRY.register("crewmate_cyan_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_CYAN, -8585217, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_YELLOW = REGISTRY.register("crewmate_yellow_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_YELLOW, -256, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_PINK = REGISTRY.register("crewmate_pink_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_PINK, -2490193, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_PURPLE = REGISTRY.register("crewmate_purple_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_PURPLE, -10682262, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_ORANGE = REGISTRY.register("crewmate_orange_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_ORANGE, -2456832, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_LIME = REGISTRY.register("crewmate_lime_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_LIME, -16711936, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_GREEN = REGISTRY.register("crewmate_green_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_GREEN, -14467328, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
+	public static final RegistryObject<Item> CREWMATE_BROWN = REGISTRY.register("crewmate_brown_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_BROWN, -8633088, -16711681,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
 	public static final RegistryObject<Item> CREW_ITEM = REGISTRY.register("crew_item", () -> new CrewItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

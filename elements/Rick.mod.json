@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Rick",
     "mobLabel": "Rick Astley",
-    "mobModelName": "Biped",
-    "mobModelTexture": "download_14.png",
+    "mobModelName": "Modelplayer_model",
+    "mobModelTexture": "rick.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -23,7 +23,7 @@
     "creativeTab": {
       "value": "CUSTOM:SusCreativeTab"
     },
-    "isBoss": true,
+    "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
