@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "012",
-    "3  "
+    "34 "
   ],
   "key": {
     "0": {
@@ -16,6 +16,9 @@
     },
     "3": {
       "item": "bananacraft:suspicious_sword"
+    },
+    "4": {
+      "item": "bananacraft:suspicious_hoe"
     }
   },
   "result": {
