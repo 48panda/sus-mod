@@ -10,6 +10,7 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.bananacraft.client.renderer.RickRenderer;
+import net.mcreator.bananacraft.client.renderer.GamerJ57MobRenderer;
 import net.mcreator.bananacraft.client.renderer.DreamBossRenderer;
 import net.mcreator.bananacraft.client.renderer.CrewmateYellowRenderer;
 import net.mcreator.bananacraft.client.renderer.CrewmateWhiteRenderer;
@@ -28,6 +29,7 @@ import net.mcreator.bananacraft.client.renderer.CrewmateBlueRenderer;
 public class BananacraftModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(BananacraftModEntities.GAMER_J_57_MOB.get(), GamerJ57MobRenderer::new);
 		event.registerEntityRenderer(BananacraftModEntities.RICK.get(), RickRenderer::new);
 		event.registerEntityRenderer(BananacraftModEntities.DREAM_BOSS.get(), DreamBossRenderer::new);
 		event.registerEntityRenderer(BananacraftModEntities.CREWMATE_RED.get(), CrewmateRedRenderer::new);

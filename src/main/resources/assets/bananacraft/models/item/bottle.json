@@ -1,0 +1,7 @@
+{
+  "parent": "bananacraft:custom/model",
+  "textures": {
+    "0": "bananacraft:blocks/texture",
+    "particle": "bananacraft:items/texture"
+  }
+}

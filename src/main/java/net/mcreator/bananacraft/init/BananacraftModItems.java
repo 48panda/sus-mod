@@ -22,10 +22,11 @@ import net.mcreator.bananacraft.item.SuspiciousHoeItem;
 import net.mcreator.bananacraft.item.SuspiciousAxeItem;
 import net.mcreator.bananacraft.item.SuspiciousArmorItem;
 import net.mcreator.bananacraft.item.SusItem;
+import net.mcreator.bananacraft.item.SusAiotItem;
 import net.mcreator.bananacraft.item.NeverGonnaItem;
-import net.mcreator.bananacraft.item.DreamSusItem;
 import net.mcreator.bananacraft.item.DreamItem;
 import net.mcreator.bananacraft.item.CrewItemItem;
+import net.mcreator.bananacraft.item.BottleItem;
 import net.mcreator.bananacraft.item.AmongusDripItem;
 import net.mcreator.bananacraft.BananacraftMod;
 
@@ -38,6 +39,7 @@ public class BananacraftModItems {
 	public static final RegistryObject<Item> SUSPICIOUS_SHOVEL = REGISTRY.register("suspicious_shovel", () -> new SuspiciousShovelItem());
 	public static final RegistryObject<Item> SUSPICIOUS_HOE = REGISTRY.register("suspicious_hoe", () -> new SuspiciousHoeItem());
 	public static final RegistryObject<Item> SUSPICIOUS_SWORD = REGISTRY.register("suspicious_sword", () -> new SuspiciousSwordItem());
+	public static final RegistryObject<Item> SUS_AIOT = REGISTRY.register("sus_aiot", () -> new SusAiotItem());
 	public static final RegistryObject<Item> SUSPICIOUS_ARMOR_HELMET = REGISTRY.register("suspicious_armor_helmet",
 			() -> new SuspiciousArmorItem.Helmet());
 	public static final RegistryObject<Item> SUSPICIOUS_ARMOR_CHESTPLATE = REGISTRY.register("suspicious_armor_chestplate",
@@ -51,7 +53,12 @@ public class BananacraftModItems {
 	public static final RegistryObject<Item> NEVER_GONNA = REGISTRY.register("never_gonna", () -> new NeverGonnaItem());
 	public static final RegistryObject<Item> AMONGUS_DRIP = REGISTRY.register("amongus_drip", () -> new AmongusDripItem());
 	public static final RegistryObject<Item> DREAM = REGISTRY.register("dream", () -> new DreamItem());
-	public static final RegistryObject<Item> DREAM_SUS = REGISTRY.register("dream_sus", () -> new DreamSusItem());
+	public static final RegistryObject<Item> GAMER_J_57 = block(BananacraftModBlocks.GAMER_J_57, BananacraftModTabs.TAB_SUS_CREATIVE_TAB);
+	public static final RegistryObject<Item> GAMER_K_57 = block(BananacraftModBlocks.GAMER_K_57, BananacraftModTabs.TAB_SUS_CREATIVE_TAB);
+	public static final RegistryObject<Item> BOTTLE = REGISTRY.register("bottle", () -> new BottleItem());
+	public static final RegistryObject<Item> GAMER_J_57_MOB = REGISTRY.register("gamer_j_57_mob_spawn_egg",
+			() -> new ForgeSpawnEggItem(BananacraftModEntities.GAMER_J_57_MOB, -16777216, -1,
+					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
 	public static final RegistryObject<Item> RICK = REGISTRY.register("rick_spawn_egg", () -> new ForgeSpawnEggItem(BananacraftModEntities.RICK,
 			-13422283, -8500438, new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
 	public static final RegistryObject<Item> DREAM_BOSS = REGISTRY.register("dream_boss_spawn_egg",

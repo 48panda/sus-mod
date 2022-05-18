@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3  "
+  ],
+  "key": {
+    "0": {
+      "item": "bananacraft:suspicious_shovel"
+    },
+    "1": {
+      "item": "bananacraft:suspicious_axe"
+    },
+    "2": {
+      "item": "bananacraft:suspicious_pickaxe"
+    },
+    "3": {
+      "item": "bananacraft:suspicious_sword"
+    }
+  },
+  "result": {
+    "item": "bananacraft:sus_aiot",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bananacraft:blocks/gamerj",
+    "particle": "bananacraft:blocks/gamerj"
+  }
+}

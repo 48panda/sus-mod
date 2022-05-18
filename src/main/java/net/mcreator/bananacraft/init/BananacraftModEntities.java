@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.bananacraft.entity.RickEntity;
+import net.mcreator.bananacraft.entity.GamerJ57MobEntity;
 import net.mcreator.bananacraft.entity.DreamBossEntity;
 import net.mcreator.bananacraft.entity.CrewmateYellowEntity;
 import net.mcreator.bananacraft.entity.CrewmateWhiteEntity;
@@ -35,6 +36,11 @@ import net.mcreator.bananacraft.BananacraftMod;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BananacraftModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, BananacraftMod.MODID);
+	public static final RegistryObject<EntityType<GamerJ57MobEntity>> GAMER_J_57_MOB = register("gamer_j_57_mob",
+			EntityType.Builder.<GamerJ57MobEntity>of(GamerJ57MobEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GamerJ57MobEntity::new)
+
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<RickEntity>> RICK = register("rick",
 			EntityType.Builder.<RickEntity>of(RickEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(RickEntity::new)
@@ -111,6 +117,7 @@ public class BananacraftModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			GamerJ57MobEntity.init();
 			RickEntity.init();
 			DreamBossEntity.init();
 			CrewmateRedEntity.init();
@@ -130,6 +137,7 @@ public class BananacraftModEntities {
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(GAMER_J_57_MOB.get(), GamerJ57MobEntity.createAttributes().build());
 		event.put(RICK.get(), RickEntity.createAttributes().build());
 		event.put(DREAM_BOSS.get(), DreamBossEntity.createAttributes().build());
 		event.put(CREWMATE_RED.get(), CrewmateRedEntity.createAttributes().build());

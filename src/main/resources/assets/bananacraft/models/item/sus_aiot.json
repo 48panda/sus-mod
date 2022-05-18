@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "bananacraft:items/sus_shove"
+    "layer0": "bananacraft:items/aiot"
   }
 }

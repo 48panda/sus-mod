@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:gamer_j_57"
+    },
+    {
+      "item": "bananacraft:suspicious_ingot"
+    }
+  ],
+  "result": {
+    "item": "bananacraft:gamer_k_57",
+    "count": 1
+  }
+}

@@ -7,40 +7,40 @@
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": false,
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:Dream"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
-        "value": "CUSTOM:SuspiciousIngot"
+        "value": "CUSTOM:GamerJ57"
       },
       {
         "value": "CUSTOM:SuspiciousIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DreamSus"
+      "value": "CUSTOM:GamerK57"
     },
-    "name": "sus_dream",
+    "name": "gamer_k_rec",
     "namespace": "mod"
   }
 }

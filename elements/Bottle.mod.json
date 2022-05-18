@@ -2,17 +2,17 @@
   "_fv": 28,
   "_type": "item",
   "definition": {
-    "renderType": 0,
-    "texture": "ingot",
-    "customModelName": "Normal",
-    "name": "Suspicious",
-    "rarity": "COMMON",
+    "renderType": 1,
+    "texture": "texture",
+    "customModelName": "model:default",
+    "name": "Kieran's Bottle",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:SusCreativeTab"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
-    "useDuration": 0,
+    "useDuration": 32,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -30,14 +30,14 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "hasDispenseBehavior": false,
-    "isFood": false,
-    "nutritionalValue": 4,
-    "saturation": 0.3,
+    "isFood": true,
+    "nutritionalValue": 1,
+    "saturation": 1.0,
     "eatResultItem": {
-      "value": ""
+      "value": "CUSTOM:Bottle"
     },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "drink"
   }
 }
