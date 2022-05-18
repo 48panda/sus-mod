@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.bananacraft.entity.CrewmateYellowEntity;
-import net.mcreator.bananacraft.client.model.Modelcustom_model;
+import net.mcreator.bananacraft.client.model.Modelamogus;
 
-public class CrewmateYellowRenderer extends MobRenderer<CrewmateYellowEntity, Modelcustom_model<CrewmateYellowEntity>> {
+public class CrewmateYellowRenderer extends MobRenderer<CrewmateYellowEntity, Modelamogus<CrewmateYellowEntity>> {
 	public CrewmateYellowRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelcustom_model(context.bakeLayer(Modelcustom_model.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelamogus(context.bakeLayer(Modelamogus.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

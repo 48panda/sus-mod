@@ -6,7 +6,8 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "rick"
+      "registry_name": "rick",
+      "path": "~/rick"
     },
     {
       "name": "Sus",
@@ -17,7 +18,8 @@
       "registry_name": "sus",
       "metadata": {
         "gb": true
-      }
+      },
+      "path": "~/sus"
     },
     {
       "name": "CakeOnBlockRightClicked",
@@ -45,7 +47,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/sus"
     },
     {
       "name": "Cake",
@@ -53,7 +56,8 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cake"
+      "registry_name": "cake",
+      "path": "~/sus"
     },
     {
       "name": "SussOnKeyPressed",
@@ -73,7 +77,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/sus"
     },
     {
       "name": "Suss",
@@ -81,7 +86,8 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suss"
+      "registry_name": "suss",
+      "path": "~/sus"
     },
     {
       "name": "CakeCraft",
@@ -89,7 +95,8 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cake_craft"
+      "registry_name": "cake_craft",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousIngot",
@@ -97,7 +104,8 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_ingot"
+      "registry_name": "suspicious_ingot",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousBlock",
@@ -105,7 +113,8 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_block"
+      "registry_name": "suspicious_block",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousOreBlockRecipe",
@@ -113,7 +122,8 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_ore_block_recipe"
+      "registry_name": "suspicious_ore_block_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousBlockOreRecipe",
@@ -121,7 +131,8 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_block_ore_recipe"
+      "registry_name": "suspicious_block_ore_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousPickaxe",
@@ -129,7 +140,8 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_pickaxe"
+      "registry_name": "suspicious_pickaxe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousAxe",
@@ -137,7 +149,8 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_axe"
+      "registry_name": "suspicious_axe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousSword",
@@ -145,7 +158,8 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_sword"
+      "registry_name": "suspicious_sword",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousShovel",
@@ -153,7 +167,8 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_shovel"
+      "registry_name": "suspicious_shovel",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousHoe",
@@ -161,7 +176,8 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_hoe"
+      "registry_name": "suspicious_hoe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousPickaxeRecipe",
@@ -169,7 +185,8 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_pickaxe_recipe"
+      "registry_name": "suspicious_pickaxe_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousAxeRecipe",
@@ -177,7 +194,8 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_axe_recipe"
+      "registry_name": "suspicious_axe_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousSwordRecipe",
@@ -185,7 +203,8 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_sword_recipe"
+      "registry_name": "suspicious_sword_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousShovelRecipe",
@@ -193,7 +212,8 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_shovel_recipe"
+      "registry_name": "suspicious_shovel_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousHoeRecipe",
@@ -201,7 +221,8 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_hoe_recipe"
+      "registry_name": "suspicious_hoe_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousArmor",
@@ -215,7 +236,8 @@
         "el": true,
         "eb": true,
         "ec": true
-      }
+      },
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousArmorHelmetRecipe",
@@ -223,7 +245,8 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_armor_helmet_recipe"
+      "registry_name": "suspicious_armor_helmet_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousArmorBodyRecipe",
@@ -231,7 +254,8 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_armor_body_recipe"
+      "registry_name": "suspicious_armor_body_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousArmorLeggingsRecipe",
@@ -239,7 +263,8 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_armor_leggings_recipe"
+      "registry_name": "suspicious_armor_leggings_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousArmorBootsRecipe",
@@ -247,7 +272,8 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_armor_boots_recipe"
+      "registry_name": "suspicious_armor_boots_recipe",
+      "path": "~/sus"
     },
     {
       "name": "SuspiciousBlockCrafting",
@@ -255,7 +281,8 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "suspicious_block_crafting"
+      "registry_name": "suspicious_block_crafting",
+      "path": "~/sus"
     },
     {
       "name": "Crewmate",
@@ -263,7 +290,8 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate"
+      "registry_name": "crewmate",
+      "path": "~/Amongus"
     },
     {
       "name": "RickEntityDies",
@@ -291,7 +319,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/rick"
     },
     {
       "name": "CrewItem",
@@ -299,7 +328,8 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crew_item"
+      "registry_name": "crew_item",
+      "path": "~/Amongus"
     },
     {
       "name": "SusCreativeTab",
@@ -315,7 +345,8 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "amongus_drip"
+      "registry_name": "amongus_drip",
+      "path": "~/Amongus"
     },
     {
       "name": "Dream",
@@ -323,7 +354,8 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dream"
+      "registry_name": "dream",
+      "path": "~/dream"
     },
     {
       "name": "CrewmateEntityDies",
@@ -351,7 +383,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Amongus"
     },
     {
       "name": "NeverGonna",
@@ -359,7 +392,8 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "never_gonna"
+      "registry_name": "never_gonna",
+      "path": "~/rick"
     },
     {
       "name": "DreamBoss",
@@ -367,7 +401,8 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dream_boss"
+      "registry_name": "dream_boss",
+      "path": "~/dream"
     },
     {
       "name": "DreamBossEntityDies",
@@ -395,7 +430,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/dream"
     },
     {
       "name": "CrewmateBlue",
@@ -403,7 +439,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_blue"
+      "registry_name": "crewmate_blue",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateBrown",
@@ -411,7 +448,8 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_brown"
+      "registry_name": "crewmate_brown",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateCyan",
@@ -419,7 +457,8 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_cyan"
+      "registry_name": "crewmate_cyan",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateGreen",
@@ -427,7 +466,8 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_green"
+      "registry_name": "crewmate_green",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateLime",
@@ -435,7 +475,8 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_lime"
+      "registry_name": "crewmate_lime",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateOrange",
@@ -443,7 +484,8 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_orange"
+      "registry_name": "crewmate_orange",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmatePink",
@@ -451,7 +493,8 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_pink"
+      "registry_name": "crewmate_pink",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmatePurple",
@@ -459,7 +502,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_purple"
+      "registry_name": "crewmate_purple",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateRed",
@@ -467,7 +511,8 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_red"
+      "registry_name": "crewmate_red",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateWhite",
@@ -475,7 +520,8 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_white"
+      "registry_name": "crewmate_white",
+      "path": "~/Amongus"
     },
     {
       "name": "CrewmateYellow",
@@ -483,7 +529,8 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "crewmate_yellow"
+      "registry_name": "crewmate_yellow",
+      "path": "~/Amongus"
     },
     {
       "name": "Bottle",
@@ -491,7 +538,8 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bottle"
+      "registry_name": "bottle",
+      "path": "~/gamerJ57"
     },
     {
       "name": "SusAiot",
@@ -499,7 +547,8 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sus_aiot"
+      "registry_name": "sus_aiot",
+      "path": "~/sus"
     },
     {
       "name": "Aiot",
@@ -507,7 +556,8 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "aiot"
+      "registry_name": "aiot",
+      "path": "~/sus"
     },
     {
       "name": "GamerJ57",
@@ -515,7 +565,8 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_j_57"
+      "registry_name": "gamer_j_57",
+      "path": "~/gamerJ57"
     },
     {
       "name": "GamerK57",
@@ -523,7 +574,8 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_k_57"
+      "registry_name": "gamer_k_57",
+      "path": "~/gamerJ57"
     },
     {
       "name": "GamerJ57Mob",
@@ -531,7 +583,8 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_j_57_mob"
+      "registry_name": "gamer_j_57_mob",
+      "path": "~/gamerJ57"
     },
     {
       "name": "GamerKRec",
@@ -539,7 +592,8 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_k_rec"
+      "registry_name": "gamer_k_rec",
+      "path": "~/gamerJ57"
     },
     {
       "name": "GamerJRec",
@@ -547,7 +601,8 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_j_rec"
+      "registry_name": "gamer_j_rec",
+      "path": "~/gamerJ57"
     },
     {
       "name": "GamerK",
@@ -555,7 +610,26 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer_k"
+      "registry_name": "gamer_k",
+      "path": "~/gamerJ57"
+    },
+    {
+      "name": "SuspiciousAxeMirrored",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_axe_mirrored",
+      "path": "~/sus"
+    },
+    {
+      "name": "SuspiciousHoeMirrored",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_hoe_mirrored",
+      "path": "~/sus"
     }
   ],
   "variable_elements": [],
@@ -686,7 +760,28 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Amongus",
+        "children": []
+      },
+      {
+        "name": "sus",
+        "children": []
+      },
+      {
+        "name": "rick",
+        "children": []
+      },
+      {
+        "name": "dream",
+        "children": []
+      },
+      {
+        "name": "gamerJ57",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bananacraft",
