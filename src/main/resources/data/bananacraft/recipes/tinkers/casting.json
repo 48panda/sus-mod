@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:casting_table",
+  "cast": {
+    "item": "tconstruct:ingot_cast"
+  },
+  "fluid": {
+    "name": "bananacraft:suspicious_sludge",
+    "amount": 1000
+  },
+  "result": "bananacraft:suspicious_ingot",
+  "cooling_time": 45
+}

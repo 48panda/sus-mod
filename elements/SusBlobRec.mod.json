@@ -19,7 +19,7 @@
         "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
+        "value": ""
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SuspiciousIngot"
+      "value": "CUSTOM:SuspiciousBlob"
     },
-    "name": "suspicious_block_crafting",
+    "name": "sus_blob_rec",
     "namespace": "mod"
   }
 }

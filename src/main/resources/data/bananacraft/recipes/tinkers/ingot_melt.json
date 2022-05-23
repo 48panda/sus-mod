@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "item": "bananacraft:suspicious_blob"
+  },
+  "result": {
+    "fluid": "bananacraft:sus",
+    "amount": 1000
+  },
+  "temperature": 800,
+  "time": 60
+} 

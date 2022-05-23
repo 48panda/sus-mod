@@ -71,10 +71,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -273,15 +269,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "suspicious_armor_boots_recipe",
-      "path": "~/sus"
-    },
-    {
-      "name": "SuspiciousBlockCrafting",
-      "type": "recipe",
-      "sortid": 49,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "suspicious_block_crafting",
       "path": "~/sus"
     },
     {
@@ -630,6 +617,93 @@
       "locked_code": false,
       "registry_name": "suspicious_hoe_mirrored",
       "path": "~/sus"
+    },
+    {
+      "name": "SusGeneratorGui",
+      "type": "gui",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_generator_gui"
+    },
+    {
+      "name": "SusIngotGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_ingot_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SusIngotGenerator",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_ingot_generator"
+    },
+    {
+      "name": "SuspiciousSludge",
+      "type": "fluid",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_sludge",
+      "metadata": {
+        "gb": false
+      }
+    },
+    {
+      "name": "SuspiciousBlob",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suspicious_blob"
+    },
+    {
+      "name": "SusBlobRec",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_blob_rec"
+    },
+    {
+      "name": "SusGenREc",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sus_gen_r_ec"
+    },
+    {
+      "name": "BottlePaint",
+      "type": "painting",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bottle_paint"
     }
   ],
   "variable_elements": [],
@@ -694,6 +768,7 @@
     "en_us": {
       "item.bananacraft.crewmate_white_spawn_egg": "White Crewmate Spawn Egg",
       "item.bananacraft.never_gonna.desc": "Never Gonna Give You Up - Rick Astley",
+      "block.bananacraft.suspicious_sludge": "Ironified Sus Milk",
       "entity.bananacraft.crewmate_pink": "Pink Crewmate",
       "entity.bananacraft.crewmate_purple": "Purple Crewmate",
       "entity.bananacraft.crewmate": "Black Crewmate",
@@ -722,6 +797,7 @@
       "item.bananacraft.suspicious_axe": "Suspicious Axe",
       "subtitles.dream": "dream",
       "entity.bananacraft.crewmate_cyan": "Cyan Crewmate",
+      "block.bananacraft.sus_ingot_generator": "Suspicious Generator",
       "subtitles.amongusdrip": "Among us drip",
       "subtitles.dreamsus": "dream sus",
       "block.bananacraft.gamer_j_57": "GamerJ57",
@@ -743,14 +819,17 @@
       "item.bananacraft.crewmate_cyan_spawn_egg": "Cyan Crewmate Spawn Egg",
       "item.bananacraft.suspicious_shovel": "Suspicious Shovel",
       "item.bananacraft.suspicious_armor_chestplate": "Suspicious Chestplate",
+      "fluid.bananacraft.suspicious_sludge": "Ironified Sus Milk",
+      "item.bananacraft.suspicious_blob": "Suspicious Blob",
       "item.bananacraft.suspicious_hoe": "Suspicious Hoe",
-      "item.bananacraft.sus_aiot": "Suspicious Pickaxe",
+      "item.bananacraft.sus_aiot": "Suspicious AIOT",
       "item.bananacraft.amongus_drip": "Music Disc",
       "entity.bananacraft.crewmate_lime": "Lime Crewmate",
       "entity.bananacraft.gamer_j_57_mob": "GamerJ57",
       "block.bananacraft.cake": "sus Cake",
       "item.bananacraft.suspicious_ingot": "Suspicious",
       "item.bananacraft.amongus_drip.desc": "Among Us Drip",
+      "item.bananacraft.suspicious_sludge_bucket": "Suspicious Sludge Bucket",
       "key.bananacraft.suss": "sus",
       "item.bananacraft.suspicious_pickaxe": "Suspicious Pickaxe",
       "entity.bananacraft.crewmate_red": "Red Crewmate",
@@ -787,12 +866,14 @@
     "modid": "bananacraft",
     "modName": "bananacraft",
     "version": "1.0.0",
-    "author": "George, MCreator",
+    "author": "48panda",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "requiredMods": [],
+    "requiredMods": [
+      "tconstruct"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
@@ -801,5 +882,5 @@
     "modElementsPackage": "net.mcreator.bananacraft",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200120510
 }

@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="bananacraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="George, MCreator"
+authors="48panda"
 
 [[dependencies.bananacraft]]
     modId="minecraft"
@@ -18,5 +18,11 @@ authors="George, MCreator"
     side="BOTH"
 
 
+[[dependencies.bananacraft]]
+    modId="tconstruct"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 

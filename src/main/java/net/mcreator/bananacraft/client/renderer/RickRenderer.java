@@ -6,11 +6,11 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 
 import net.mcreator.bananacraft.entity.RickEntity;
-import net.mcreator.bananacraft.client.model.Modelplayer_model;
+import net.mcreator.bananacraft.client.model.Modelplayer_two;
 
-public class RickRenderer extends MobRenderer<RickEntity, Modelplayer_model<RickEntity>> {
+public class RickRenderer extends MobRenderer<RickEntity, Modelplayer_two<RickEntity>> {
 	public RickRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelplayer_model(context.bakeLayer(Modelplayer_model.LAYER_LOCATION)), 0.5f);
+		super(context, new Modelplayer_two(context.bakeLayer(Modelplayer_two.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

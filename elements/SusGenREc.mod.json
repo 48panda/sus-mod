@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousIngot"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      },
+      {
+        "value": "CUSTOM:SuspiciousBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SusIngotGenerator"
+    },
+    "name": "sus_gen_r_ec",
+    "namespace": "mod"
+  }
+}

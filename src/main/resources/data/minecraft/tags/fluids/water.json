@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "bananacraft:sus",
-    "bananacraft:flowing_sus"
+    "bananacraft:flowing_sus",
+    "bananacraft:suspicious_sludge",
+    "bananacraft:flowing_suspicious_sludge"
   ]
 }

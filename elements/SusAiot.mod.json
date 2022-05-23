@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "aiot",
     "customModelName": "Normal",
-    "name": "Suspicious Pickaxe",
+    "name": "Suspicious AIOT",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:SusCreativeTab"

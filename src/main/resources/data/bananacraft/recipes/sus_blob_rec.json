@@ -3,13 +3,10 @@
   "ingredients": [
     {
       "item": "bananacraft:sus_bucket"
-    },
-    {
-      "item": "minecraft:iron_ingot"
     }
   ],
   "result": {
-    "item": "bananacraft:suspicious_ingot",
+    "item": "bananacraft:suspicious_blob",
     "count": 1
   }
 }

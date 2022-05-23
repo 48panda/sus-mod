@@ -52,7 +52,7 @@ public class SussMessage {
 			return;
 		if (type == 0) {
 
-			SussOnKeyPressedProcedure.execute(world, entity);
+			SussOnKeyPressedProcedure.execute(entity);
 		}
 	}
 

@@ -14,7 +14,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.bananacraft.block.SuspiciousSludgeBlock;
 import net.mcreator.bananacraft.block.SuspiciousBlockBlock;
+import net.mcreator.bananacraft.block.SusIngotGeneratorBlock;
 import net.mcreator.bananacraft.block.SusBlock;
 import net.mcreator.bananacraft.block.GamerK57Block;
 import net.mcreator.bananacraft.block.GamerJ57Block;
@@ -28,6 +30,8 @@ public class BananacraftModBlocks {
 	public static final RegistryObject<Block> CAKE = REGISTRY.register("cake", () -> new CakeBlock());
 	public static final RegistryObject<Block> GAMER_J_57 = REGISTRY.register("gamer_j_57", () -> new GamerJ57Block());
 	public static final RegistryObject<Block> GAMER_K_57 = REGISTRY.register("gamer_k_57", () -> new GamerK57Block());
+	public static final RegistryObject<Block> SUS_INGOT_GENERATOR = REGISTRY.register("sus_ingot_generator", () -> new SusIngotGeneratorBlock());
+	public static final RegistryObject<Block> SUSPICIOUS_SLUDGE = REGISTRY.register("suspicious_sludge", () -> new SuspiciousSludgeBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

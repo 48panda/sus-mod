@@ -29,8 +29,10 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.bananacraft.init.BananacraftModTabs;
 import net.mcreator.bananacraft.init.BananacraftModItems;
 import net.mcreator.bananacraft.init.BananacraftModFluids;
+import net.mcreator.bananacraft.init.BananacraftModFeatures;
 import net.mcreator.bananacraft.init.BananacraftModEntities;
 import net.mcreator.bananacraft.init.BananacraftModBlocks;
+import net.mcreator.bananacraft.init.BananacraftModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,7 +53,8 @@ public class BananacraftMod {
 		BananacraftModBlocks.REGISTRY.register(bus);
 		BananacraftModItems.REGISTRY.register(bus);
 		BananacraftModEntities.REGISTRY.register(bus);
-
+		BananacraftModBlockEntities.REGISTRY.register(bus);
+		BananacraftModFeatures.REGISTRY.register(bus);
 		BananacraftModFluids.REGISTRY.register(bus);
 
 	}

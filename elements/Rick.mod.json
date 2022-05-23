@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Rick",
     "mobLabel": "Rick Astley",
-    "mobModelName": "Modelplayer_model",
+    "mobModelName": "Modelplayer_two",
     "mobModelTexture": "rick.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

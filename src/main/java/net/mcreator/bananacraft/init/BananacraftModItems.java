@@ -19,6 +19,7 @@ import net.mcreator.bananacraft.item.SuspiciousShovelItem;
 import net.mcreator.bananacraft.item.SuspiciousPickaxeItem;
 import net.mcreator.bananacraft.item.SuspiciousIngotItem;
 import net.mcreator.bananacraft.item.SuspiciousHoeItem;
+import net.mcreator.bananacraft.item.SuspiciousBlobItem;
 import net.mcreator.bananacraft.item.SuspiciousAxeItem;
 import net.mcreator.bananacraft.item.SuspiciousArmorItem;
 import net.mcreator.bananacraft.item.SusItem;
@@ -101,6 +102,9 @@ public class BananacraftModItems {
 			() -> new ForgeSpawnEggItem(BananacraftModEntities.CREWMATE_BROWN, -8633088, -16711681,
 					new Item.Properties().tab(BananacraftModTabs.TAB_SUS_CREATIVE_TAB)));
 	public static final RegistryObject<Item> CREW_ITEM = REGISTRY.register("crew_item", () -> new CrewItemItem());
+	public static final RegistryObject<Item> SUS_INGOT_GENERATOR = block(BananacraftModBlocks.SUS_INGOT_GENERATOR,
+			BananacraftModTabs.TAB_SUS_CREATIVE_TAB);
+	public static final RegistryObject<Item> SUSPICIOUS_BLOB = REGISTRY.register("suspicious_blob", () -> new SuspiciousBlobItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

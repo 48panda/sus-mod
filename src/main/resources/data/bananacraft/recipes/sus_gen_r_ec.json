@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "1": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "2": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "3": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "4": {
+      "item": "bananacraft:suspicious_ingot"
+    },
+    "5": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "6": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "7": {
+      "item": "bananacraft:suspicious_block"
+    },
+    "8": {
+      "item": "bananacraft:suspicious_block"
+    }
+  },
+  "result": {
+    "item": "bananacraft:sus_ingot_generator",
+    "count": 1
+  }
+}

@@ -2,18 +2,18 @@
 // Exported for Minecraft version 1.17 - 1.18 with Mojang mappings
 // Paste this class into your mod and generate all required imports
 
-public class Modelamogus<T extends Entity> extends EntityModel<T> {
+public class Modelsus_two<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(
-			new ResourceLocation("modid", "amogus"), "main");
+			new ResourceLocation("modid", "sus_two"), "main");
 	private final ModelPart LegL;
 	private final ModelPart LegR;
 	private final ModelPart Backpack;
 	private final ModelPart Head;
 	private final ModelPart bb_main;
 
-	public Modelamogus(ModelPart root) {
+	public Modelsus_two(ModelPart root) {
 		this.LegL = root.getChild("LegL");
 		this.LegR = root.getChild("LegR");
 		this.Backpack = root.getChild("Backpack");
@@ -27,15 +27,15 @@ public class Modelamogus<T extends Entity> extends EntityModel<T> {
 
 		PartDefinition LegL = partdefinition.addOrReplaceChild("LegL",
 				CubeListBuilder.create().texOffs(60, 49)
-						.addBox(2.0F, -12.0F, -3.0F, 7.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(86, 53)
-						.addBox(2.0F, -3.0F, -5.0F, 7.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
+						.addBox(2.0F, 0.0F, -3.0F, 7.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)).texOffs(86, 53)
+						.addBox(2.0F, 9.0F, -5.0F, 7.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 12.0F, 0.0F));
 
 		PartDefinition LegR = partdefinition.addOrReplaceChild("LegR",
 				CubeListBuilder.create().texOffs(86, 42)
-						.addBox(-9.0F, -3.0F, -5.0F, 7.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(60, 34)
-						.addBox(-9.0F, -12.0F, -3.0F, 7.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(0.0F, 24.0F, 0.0F));
+						.addBox(-9.0F, 9.0F, -5.0F, 7.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(60, 34)
+						.addBox(-9.0F, 0.0F, -3.0F, 7.0F, 9.0F, 6.0F, new CubeDeformation(0.0F)),
+				PartPose.offset(0.0F, 12.0F, 0.0F));
 
 		PartDefinition Backpack = partdefinition.addOrReplaceChild("Backpack",
 				CubeListBuilder.create().texOffs(80, 9)
